@@ -1,0 +1,49 @@
+body {
+    background-color: #ff00ff;
+    color: #00ff00;
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+h1, h2, h3 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px black;
+    background: linear-gradient(45deg, red, yellow);
+    padding: 20px;
+    border: 5px dashed blue;
+}
+
+p {
+    font-size: 25px;
+    line-height: 3;
+    letter-spacing: 3px;
+    text-align: justify;
+    background-color: yellow;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+a {
+    color: cyan;
+    font-weight: bold;
+    text-decoration: blink;
+}
+
+a:hover {
+    color: red;
+    font-size: 30px;
+}
+
+img {
+    border: 10px solid lime;
+    box-shadow: 10px 10px 10px black;
+    transform: rotate(10deg);
+}
+
+ol, ul {
+    font-size: 30px;
+    background: pink;
+    padding: 20px;
+    border: 5px dotted purple;
+}
