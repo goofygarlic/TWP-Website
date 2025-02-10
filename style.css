@@ -4,25 +4,33 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #000;
+    color: #fff;
 }
 
 /* Headers */
 h1 {
-    color: #222;
+    color: #ffb6c1;
     text-align: center;
     padding: 10px 0;
+    background: #222;
+    border-radius: 8px;
 }
 
 h2 {
-    color: #444;
-    border-bottom: 2px solid #ddd;
+    color: #ffb6c1;
+    border-bottom: 2px solid #ffb6c1;
     padding-bottom: 5px;
+    background: #222;
+    border-radius: 5px;
+    padding: 8px;
 }
 
 h3 {
-    color: #666;
+    color: #ffb6c1;
+    background: #333;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 /* Paragraphs and Links */
@@ -30,14 +38,15 @@ p {
     max-width: 800px;
     margin: 10px auto;
     padding: 10px;
-    background: white;
+    background: #111;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(255, 182, 193, 0.5);
 }
 
 a {
-    color: #007BFF;
+    color: #ffb6c1;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -49,28 +58,44 @@ ol {
     max-width: 600px;
     margin: 20px auto;
     padding: 10px;
-    background: white;
+    background: transparent;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: none;
 }
 
 li {
     margin: 5px 0;
+    padding: 5px;
+    background: #222;
+    border-radius: 5px;
+    list-style-type: decimal;
+    color: #ffb6c1;
 }
 
-/* Images */
-img {
-    display: block;
-    margin: 10px auto;
+/* Gallery Grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
     border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(255, 182, 193, 0.5);
+    border: 3px solid #ffb6c1;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 10px;
-    background: #333;
-    color: white;
+    background: #222;
+    color: #ffb6c1;
     margin-top: 20px;
+    border-radius: 8px;
 }
