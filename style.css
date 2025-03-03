@@ -13,6 +13,13 @@ main {
     padding-top: 100px;
 }
 
+.logo{
+    width: 200px;
+    height: 200px;
+    margin: 0 left;
+    display: block;
+}
+
 /* Page Navigation */
 .page-nav {
     text-align: center;
