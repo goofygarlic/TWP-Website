@@ -1,0 +1,75 @@
+/* Basic Page & Typography */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Site Navigation */
+  .site-nav {
+    background: #222;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .site-logo {
+    width: 60px; /* or any preferred dimension */
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .site-nav nav a {
+    color: #9dd2ff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .site-nav nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Heading */
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2rem;
+    color: #444;
+  }
+  
+  /* Author Portrait */
+  .author-portrait {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+  }
+  
+  /* Paragraphs & Links */
+  p {
+    margin: 20px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .author-link {
+    color: #0066cc;
+    text-decoration: underline;
+  }
+  
+  .author-link:hover {
+    color: #004a99;
+  }  
