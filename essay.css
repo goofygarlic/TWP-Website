@@ -1,85 +1,103 @@
 /* Basic Page & Typography */
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-  }
-  
-  .wrapper {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Site Navigation */
-  .site-nav {
-    background: #222;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .site-logo {
-    width: 60px;
-    height: auto;
-    margin-right: 20px;
-  }
-  
-  .site-nav nav a {
-    color: #ffd700; /* gold-ish color for variation */
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .site-nav nav a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Main Heading */
-  h1 {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 2rem;
-    color: #444;
-  }
-  
-  /* Paragraphs & Links */
-  p {
-    margin: 20px 0;
-    font-size: 1rem;
-    color: #555;
-  }
-  
-  .inline-ref {
-    color: #0066cc;
-    text-decoration: underline;
-  }
-  
-  .inline-ref:hover {
-    color: #004a99;
-  }
-  
-  /* Illustrations */
-  .illustration {
-    margin: 30px auto;
-    text-align: center;
-  }
-  
-  .illustration img {
-    max-width: 500px;
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-    border: 2px solid #ccc;
-  }
-  
-  .illustration figcaption {
-    margin-top: 8px;
-    font-size: 0.9rem;
-    color: #777;
-  }
-  
+  font-family: 'Montserrat', sans-serif;
+  background-color: #111; /* Dark background matching twp.css */
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Site Navigation */
+.site-nav {
+  background: #222;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.site-nav nav a {
+  color: #9dd2ff; /* distinct color for site nav */
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-nav nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Heading */
+h1 {
+  text-align: center;
+  background: #222;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 80px; 
+  font-size: 2rem;
+}
+
+h2, h3 {
+  margin-top: 40px;
+  background: #333;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1.6rem;
+}
+
+/* Paragraphs & Links */
+p {
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+a {
+  color: #ffb6c1; 
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ffc0cb;
+}
+
+/* Illustrations (if you have images in essay.html) */
+.illustration {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.illustration img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  border: 2px solid #333;
+}
+
+.illustration figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+/* Footer (if used) */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #222;
+  color: #ffb6c1;
+  margin-top: 20px;
+  border-radius: 8px;
+}
