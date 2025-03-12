@@ -111,6 +111,11 @@ body {
   p {
     margin: 20px 0;
   }
+
+  a {
+    color: #ffb6c1; 
+    text-decoration: underline;
+  }
   
   /* Gallery Grid (3×3) */
   .gallery {
