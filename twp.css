@@ -135,7 +135,6 @@ body {
   }
   
   .gallery img {
-    /* images are already physically resized, so no width/height here */
     border-radius: 4px;
     display: block;
     margin: 0 auto;
